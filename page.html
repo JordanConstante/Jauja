@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Critero, por favor</title>
+</head>
+<script>
+  let clickCount = 0;
+
+  const downloadButton = document.getElementById('downloadButton');
+  const clickCountDisplay = document.getElementById('clickCount');
+
+  downloadButton.addEventListener('click', function(event) {
+    clickCount++;
+    clickCountDisplay.textContent = 'Clics: ' + clickCount;
+  });
+</script>
+
+<body>
+
+  <header>
+    <h1>CRITERO, POR FAVOR</h1>
+    <p>En un mundo donde la censura dominó todos los medios de comunicación,</p> 
+    <p>solo algunos podrán ser calificados como verdaderos pensantes</p>
+    <div class="Miniatura">
+      <img src="statics/miniatura.png" alt="Miniatura1">
+    </div>
+  </header>
+  
+  <div class="container">
+    <section class="intro-section">
+      <div class="intro-content">
+        <div class="texto">
+        <h2>¿De qué trata?</h2>
+        <p>Decia Lope de Vega: " Y escribo por el arte que inventaron los que el vulgar aplauso pretendieron, porque la espada al vulgo es justo hablarle necio para darle gusto" (...)  ¡El simulador definitivo de justiciero social y censurador de opiniones ajenas!</p>
+        <p>"Criterio, Por Favor" es un mod del popular juego hecho por Lucas Pope, llamado: Papers, Please. Con la premisa de juzgar, analizar y crear una retrospectiva acerca de cada cualquier creador de contenido de critica que promulga servir en aras del conocimiento.</p> 
+        <p>Desde la comunidad anglo sajona y hispana se tomaron mas de 89 canales de diferente indole critica para una experiencia de gran gravedad intelectual. Pasando por 15 años en distintas epocas del internet para una mayor expansion de la experiencia videojugabilistica.</p>
+        <p>Estamos en un mundo donde la censura domino todos los medios de comunicacion, a tal punto que se necesitan personas calificadas para hacer un filtro sobre el criterio propio.</p>
+        <p>Desgraciadamente, muchas de estas "buenas personas" en realidad no lo son tanto. Porque la ideología afecta su moral, aunque a veces no queramos reconocerlo. Considero que solo podemos "rescatar" a una cuantas personas que den signos de duda o ingenuidad.</p>
+        <p>Porque la mayoría no querrá; no son buenas personas. Habrá que tratarlas como lo que son. Como extremistas que viven patéticamente pendientes de un extremo falaz.</p>
+        <p>¡Gloria a la Posverdad!</p>
+        <div class="video">
+          <iframe width="420" height="236" 
+            src="statics/videoplayback_1.mp4" 
+            title="Video de ejemplo"
+            frameborder="0" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="Arte">
+      <h2>Arte usado en el mod</h2>
+      <img src="statics/image_10.png" alt="Captura de pantalla 1">
+      <img src="statics/image_4.png" alt="Captura de pantalla 2">
+      <img src="statics/image_16.png" alt="Captura de pantalla 3">
+    </section>
+
+    <section class="features">
+      <h3>Características principales</h3>
+      <ul>
+        <li>Gráficos estilo 8-bit</li>
+        <li>Historia nueva e interesantes mecánicas</li>
+        <li>Lolcows de Internet conocidos</li>
+        <li>Controles adaptables para teclado o gamepad</li>
+        <li>Disponible Proximamente</li>
+      </ul>
+    </section>
+
+    <div class="cta">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="downloadButton">Descargar ahora</a>
+      <div id="clickCount">Pensadores: 0</div>
+    </div>
+    
+    
+  </div>
+
+  <footer>
+    © 2025 Jauja Games Studio — Todos los derechos reservados
+  </footer>
+
+</body>
+</html>

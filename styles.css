@@ -1,0 +1,141 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F21;
+    color: #fff;
+    background-image: url('statics/350244236_1266044864049954_1405464609584858147_n.png'); 
+    background-size: 50% 50%;
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed;
+    text-align: left;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+.Miniatura img {
+    max-width: 900px;
+    margin: 20px 50px 20px 0;
+    display: block;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    text-shadow:
+      2px 2px 0 #000,   
+      4px 4px 0 rgb(92, 92, 92);   
+  }
+  
+h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: left;
+    text-shadow:
+      2px 2px 0 #000,   
+      4px 4px 0 rgb(92, 92, 92);   
+}
+
+header p {
+    font-size: 1.2em;
+    color: #aaa;
+    margin-top: 0;
+    text-align: left;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    text-align: left;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1 1 60%;
+}
+
+.video {
+    flex: 1 1 35%;
+    min-width: 300px;
+}  
+.screenshots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.screenshots img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.features {
+    margin: 40px 0;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li::before {
+    content: "🎮 ";
+}
+
+.cta {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    margin: 0;
+}
+
+.cta a {
+    background-color: rgb(110, 22, 22);
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.cta a:hover {
+    background-color: rgb(180, 177, 26);
+}
+
+#clickCount {
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: right;
+}
+
+
+
+footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #222;
+    font-size: 14px;
+    color: #999;
+}
+.container, .container * {
+    text-align: left !important;
+  }
+  
